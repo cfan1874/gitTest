@@ -1,6 +1,6 @@
 package org.git.test;
 
-public class User2 {
+public class User3 {
 	 private int userId;
 	 private String userName;
 	 private String passWord;
@@ -19,5 +19,14 @@ public class User2 {
 	}
 	public String getPassWord() {
 		return passWord;
+	}
+	public void setPassWord(String passWord) {
+		this.passWord = passWord;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }
