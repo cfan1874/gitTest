@@ -1,0 +1,6 @@
+private static Properties properties ;
+static {
+  String path=PropertiesUtil.class.getResource("/").getPath;
+  FileInputStream fis=new FileInputStream(path+"application.properties");
+  properties.load(fis);
+  }
